@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Notion",
+    "website": "https://notion.so",
+    "category": "Productivity",
+    "location": "USA",
+    "description": "All-in-one workspace"
+  },
+  {
+    "id": "2",
+    "name": "Razorpay",
+    "website": "https://razorpay.com",
+    "category": "Fintech",
+    "location": "India",
+    "description": "Payments infrastructure"
+  }
+]

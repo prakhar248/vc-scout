@@ -100,21 +100,23 @@ export default function CompanyProfile({ params }) {
             {loading ? "Enriching..." : "Enrich Company"}
         </button>
         {enrichment && (
-            <div className="mt-6 border p-4 rounded bg-gray-50">
+            <div className="mt-6 border border-gray-700 p-4 rounded bg-gray-900 text-gray-200 shadow-lg">
                 <h2 className="text-xl font-semibold mb-2">Enrichment</h2>
 
-                <p><b>Summary:</b> {enrichment.summary}</p>
-
-                <p className="mt-2">
-                    <b>Keywords:</b> {enrichment.keywords?.join(", ") || "N/A"}
+                <p className="mt-2 leading-relaxed">
+                    <b>Summary:</b> {enrichment.summary}
                 </p>
 
                 <p className="mt-2">
-                    <b>Signals:</b> {enrichment.signals?.join(", ") || "N/A"}
+                    <b className="text-white">Keywords:</b> {enrichment.keywords?.join(", ") || "N/A"}
                 </p>
 
-                <p className="mt-2 text-sm text-gray-500">
-                Source: {enrichment.sources?.[0] || "N/A"}
+                <p className="mt-2">
+                    <b className="text-white">Signals:</b> {enrichment.signals?.join(", ") || "N/A"}
+                </p>
+
+                <p className="mt-2 text-sm text-gray-400">
+                    Source: {enrichment.sources?.[0] || "N/A"}
                 </p>
             </div>
         )}

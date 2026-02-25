@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="flex">
           <Sidebar />
-          <main className="flex-1 p-6">{children}</main>
+          <main className="flex-1 p-6 ml-60">{children}</main>
         </div>
       </body>
     </html>

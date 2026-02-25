@@ -7,25 +7,25 @@ export default function CompaniesPage() {
 
       <table className="w-full border">
         <thead>
-          <tr className="bg-gray-200">
-            <th>Name</th>
-            <th>Category</th>
-            <th>Location</th>
-          </tr>
+            <tr className="bg-gray-800 text-white">
+                <th className="p-3 text-left">Name</th>
+                <th className="p-3 text-left">Category</th>
+                <th className="p-3 text-left">Location</th>
+            </tr>
         </thead>
 
         <tbody>
-          {companies.map((c) => (
-            <tr key={c.id} className="border">
-              <td>
-                <a href={`/companies/${c.id}`} className="text-blue-600">
-                  {c.name}
-                </a>
-              </td>
-              <td>{c.category}</td>
-              <td>{c.location}</td>
-            </tr>
-          ))}
+            {companies.map((c) => (
+                <tr key={c.id} className="border border-gray-700 hover:bg-gray-800 transition">
+                <td className="p-3">
+                    <a href={`/companies/${c.id}`} className="text-blue-500 hover:underline">
+                    {c.name}
+                    </a>
+                </td>
+                <td className="p-3">{c.category}</td>
+                <td className="p-3">{c.location}</td>
+                </tr>
+            ))}
         </tbody>
       </table>
     </div>

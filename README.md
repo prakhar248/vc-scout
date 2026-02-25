@@ -27,3 +27,11 @@ A lightweight VC intelligence tool for discovering, enriching, and organizing st
 ```bash
 npm install
 npm run dev
+```
+Future improvements:
+
+1. Thesis-based scoring
+2. Saved searches
+3. Vector similarity
+4. Multi-list support
+5. Advanced filtering

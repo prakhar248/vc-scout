@@ -5,7 +5,7 @@
     "website": "https://notion.so",
     "category": "Productivity",
     "location": "USA",
-    "description": "All-in-one workspace"
+    "description": "All-in-one workspace for docs and collaboration"
   },
   {
     "id": "2",
@@ -13,6 +13,70 @@
     "website": "https://razorpay.com",
     "category": "Fintech",
     "location": "India",
-    "description": "Payments infrastructure"
+    "description": "Payments and banking infrastructure for businesses"
+  },
+  {
+    "id": "3",
+    "name": "Replit",
+    "website": "https://replit.com",
+    "category": "Developer Tools",
+    "location": "USA",
+    "description": "Cloud-based coding and deployment platform"
+  },
+  {
+    "id": "4",
+    "name": "Postman",
+    "website": "https://postman.com",
+    "category": "Developer Tools",
+    "location": "India",
+    "description": "API collaboration platform"
+  },
+  {
+    "id": "5",
+    "name": "CRED",
+    "website": "https://cred.club",
+    "category": "Fintech",
+    "location": "India",
+    "description": "Credit card rewards and financial services platform"
+  },
+  {
+    "id": "6",
+    "name": "Framer",
+    "website": "https://framer.com",
+    "category": "Design Tools",
+    "location": "Netherlands",
+    "description": "Interactive website builder and prototyping tool"
+  },
+  {
+    "id": "7",
+    "name": "Linear",
+    "website": "https://linear.app",
+    "category": "Productivity",
+    "location": "USA",
+    "description": "Issue tracking and project management tool"
+  },
+  {
+    "id": "8",
+    "name": "Perplexity",
+    "website": "https://perplexity.ai",
+    "category": "AI",
+    "location": "USA",
+    "description": "AI-powered search and research assistant"
+  },
+  {
+    "id": "9",
+    "name": "Glean",
+    "website": "https://glean.com",
+    "category": "AI",
+    "location": "USA",
+    "description": "Workplace AI search platform"
+  },
+  {
+    "id": "10",
+    "name": "Zepto",
+    "website": "https://zepto.now",
+    "category": "Commerce",
+    "location": "India",
+    "description": "10-minute grocery delivery platform"
   }
 ]
